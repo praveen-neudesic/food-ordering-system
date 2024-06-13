@@ -28,6 +28,7 @@ public class OrderDataMapper {
     public CreateOrderResponse orderToCreateOrderResponse(Order order) {
         return CreateOrderResponse.builder()
                 .orderStatus(order.getOrderStatus())
+                .build();
     }
 
 }
