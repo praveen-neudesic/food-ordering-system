@@ -9,6 +9,11 @@
         <version>1.0-SNAPSHOT</version>
     </parent>
 
+    <packaging>pom</packaging>
     <artifactId>common</artifactId>
+
+    <modules>
+        <module>common-domain</module>
+    </modules>
 
 </project>
