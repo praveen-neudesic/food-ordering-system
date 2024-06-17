@@ -14,6 +14,8 @@
 
     <modules>
         <module>common-domain</module>
+        <module>common-api</module>
+        <module>common-dataaccess</module>
     </modules>
 
 </project>
